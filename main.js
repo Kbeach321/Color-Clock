@@ -1,6 +1,6 @@
 //--------------------  JS VARIABLES ----------------------//
 var now, hours, minutes, seconds, percent,
- hoursHex, minutesHex, secondsHex, hexTime,
+ hoursHex, minutesHex, secondsHex, hexTime, hexBkg,
  hoursPadded, minutesPadded, secondsPadded;
 var hover = false;
 //--------------------  HTML VARIABLES ----------------------//
@@ -24,8 +24,8 @@ setInterval(function(){
 //------------------- HEX AS VALUE ------------------------//
   hexTime = hoursHex + ":" + minutesHex + ":" + secondsHex;
 //------------------- HEX AS COLOR ------------------------//
-  var hexbkg = "#" + hoursHex + minutesHex + secondsHex;
-  $container.style.backgroundColor=hexbkg ;
+  hexBkg = "#" + hoursHex + minutesHex + secondsHex;
+  $container.style.backgroundColor=hexBkg ;
 //------------------ GETS & PADS HOURS ------------------//
   hours = now.getHours();
   hoursPadded = hours.toString().padStart(2,'0');
