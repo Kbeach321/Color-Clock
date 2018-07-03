@@ -4,9 +4,9 @@
 
 .container {
   width: 80%;
-  background-color: blue;
+  /* background-color: blue; */
   margin: 20% auto;
-  padding: 20% 0;
+  padding: 20%;
 }
 
 .clock {
@@ -17,7 +17,7 @@
 
 .progress_bar {
   margin: 0 auto;
-  width: 90%;
-  border: solid black;
+  /* width: 90%; */
+  border-top: solid black;
   height: 20px;
 }
