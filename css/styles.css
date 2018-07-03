@@ -2,19 +2,11 @@
   box-sizing: border-box;
 }
 
-img {
-  width: 100%;
-}
-
-ul {
-list-style: none;
-}
-
 .container {
-  margin: 10% 10%;
-  background-color: lightblue;
-  padding: 200px;
-
+  width: 80%;
+  background-color: blue;
+  margin: 20% auto;
+  padding: 20% 0;
 }
 
 .clock {
@@ -23,13 +15,9 @@ list-style: none;
   font-size: 3em;
 }
 
-.progress-bar {
-width: 100%;
-border: solid black;
-}
-
-.mybar {
-  width: 0%;
-  height: 25px;
-  background-color: red;
+.progress_bar {
+  margin: 0 auto;
+  width: 90%;
+  border: solid black;
+  height: 20px;
 }
