@@ -9,3 +9,27 @@ img {
 ul {
 list-style: none;
 }
+
+.container {
+  margin: 10% 10%;
+  background-color: lightblue;
+  padding: 200px;
+
+}
+
+.clock {
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 3em;
+}
+
+.progress-bar {
+width: 100%;
+border: solid black;
+}
+
+.mybar {
+  width: 0%;
+  height: 25px;
+  background-color: red;
+}
