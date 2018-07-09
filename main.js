@@ -18,6 +18,7 @@ $container.onmouseout = function(){
 setInterval(function(){
   now = new Date();
 //----------------- GENERATE HEX CODES ------------------//
+// toString(16) = hex translation // slice()
   hoursHex = ("0" + now.getHours().toString(16)).slice(-2);
   minutesHex = ("0" + now.getMinutes().toString(16)).slice(-2);
   secondsHex = ("0" + now.getSeconds().toString(16)).slice(-2);
