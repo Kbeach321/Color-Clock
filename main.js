@@ -8,10 +8,10 @@ var $clock = document.querySelector(".clock");
 var $container = document.querySelector(".container");
 var $progress_bar = document.querySelector(".progress_bar");
 //--------------------  HTML FUNCTIONS ----------------------//
-$container.onmouseover = function(){
+$clock.onmouseover = function(){
   hover = true;
 };
-$container.onmouseout = function(){
+$clock.onmouseout = function(){
   hover = false;
 };
 //--------------------  JS FUNCTIONS ----------------------//
